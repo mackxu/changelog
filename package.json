@@ -2,8 +2,10 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@release-it/conventional-changelog": "^8.0.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "release-it": "^17.0.0",
     "simple-git-hooks": "^2.9.0"
   },
   "name": "changelog",
@@ -11,8 +13,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "prepare": "npx simple-git-hooks",
     "cmt": "cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
