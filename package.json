@@ -10,7 +10,7 @@
   },
   "name": "changelog",
   "description": "release-it+simple-git-hooks+ commitizen+ commitlint",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "prepare": "npx simple-git-hooks",
