@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "name": "changelog",
+  "description": "release-it+simple-git-hooks+ commitizen+ commitlint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackxu/changelog.git"
+  },
+  "keywords": [
+    "release-it",
+    "simple-git-hooks",
+    "commitizen",
+    "commitlint"
+  ],
+  "author": "duoduoxu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackxu/changelog/issues"
+  },
+  "homepage": "https://github.com/mackxu/changelog#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
