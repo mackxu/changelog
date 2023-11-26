@@ -10,6 +10,9 @@
   "npm": {
     "publish": false
   },
+  "hooks": {
+    "after:bump": "echo 发布版本成功"
+  },
   "plugins": {
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
