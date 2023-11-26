@@ -1,13 +1,15 @@
 {
   "git": {
-    "commitMessage": "chore: release v${version}"
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}"
   },
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "v${version}",
+    "releaseNotes": "git log --no-merges --pretty=format:\"* %s %h\" ${latestTag}...master"
   },
   "npm": {
-    "publish": false,
-    "ignoreVersion": true
+    "publish": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {
