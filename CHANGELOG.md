@@ -1,5 +1,12 @@
 
 
+## [0.0.3](https://github.com/mackxu/changelog/compare/v0.0.2...v0.0.3) (2023-11-26)
+
+
+### ✨新功能
+
+* **release-it:** add hooks hint ([60c6b10](https://github.com/mackxu/changelog/commit/60c6b10142a736c220cc18d963be9f76810bba44))
+
 ## [0.0.2](https://github.com/mackxu/changelog/compare/0.0.1...v0.0.2) (2023-11-26)
 
 
